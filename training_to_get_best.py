@@ -11,4 +11,4 @@ results = model.train(data='footballPlayers/data.yaml', epochs=20,)
 # Evaluate the model's performance on the validation set
 results = model.val()
 
-model.predict(source= source_path, save = True)
+model.predict(source= source_path, save= True)
