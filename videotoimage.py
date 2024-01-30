@@ -1,9 +1,4 @@
 from ultralytics import YOLO
-import os
 
-# Load pre-trained model
-model_path = '/home/rohit/GithubRepo/ObjectDetection-YOLOv8/runs/detect/train37/weights/best.pt'
-source_path = 'https://youtu.be/HQIibrdTJcY?si=rHJFJf9giu-mc3pH'
-
-model = YOLO('best.pt')
-results = model.track(source='footballvid.mp4', show=True)
+model = YOLO('yolov8n.pt')
+results = model.track(source='https://youtu.be/gqUg-_JJAEg?si=XR9UeP9_QNQ7o7CR', show=True)
