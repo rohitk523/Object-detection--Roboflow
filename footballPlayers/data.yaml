@@ -1,7 +1,7 @@
 
-train: /home/rohit/GithubRepo/Object-detection--Roboflow/footballPlayers/train/images
-val: /home/rohit/GithubRepo/Object-detection--Roboflow/footballPlayers/valid/images
-test: ../test/images
+train: /Users/rohitkale/GihubRepo/Object-detection--Roboflow/footballPlayers/train/images
+val: /Users/rohitkale/GihubRepo/Object-detection--Roboflow/footballPlayers/valid/images
+test: /Users/rohitkale/GihubRepo/Object-detection--Roboflow/footballPlayers/test/images
 
 names:
 - ball

@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 
-source_path = '/home/rohit/GithubRepo/Object-detection--Roboflow/footballPlayers/test/images'
+source_path = '/Users/rohitkale/GihubRepo/Object-detection--Roboflow/footballPlayers/test/images'
 # Create a new YOLO model from scratch
 model = YOLO('yolov8n.yaml')
 
