@@ -1,6 +1,5 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: /home/rohit/GithubRepo/Object-detection--Roboflow/HandGesture/train/images
+val: /home/rohit/GithubRepo/Object-detection--Roboflow/HandGesture/valid/images
 
 nc: 3
 names: ['peace', 'shaka', 'thumbs up']

@@ -1,0 +1,18 @@
+
+train: /home/rohit/GithubRepo/Object-detection--Roboflow/footballPlayers/train/images
+val: /home/rohit/GithubRepo/Object-detection--Roboflow/footballPlayers/valid/images
+test: ../test/images
+
+names:
+- ball
+- goalkeeper
+- player
+- referee
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: football-players-detection-3zvbc
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/4
+  version: 4
+  workspace: roboflow-jvuqo
+
